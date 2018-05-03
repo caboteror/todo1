@@ -9,6 +9,6 @@ export class AppComponent {
 	title = 'my application';
 	author = 'Carlos Botero';
 	count = 0;
-	imgSource = './../favicon.ico';
-	inputEnabled: boolean = true;
+	imgSource = './assets/favicon.ico';
+	inputEnabled = true;
 }
