@@ -1,11 +1,14 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.scss']
+	selector: 'app-root',
+	templateUrl: './app.component.html',
+	styleUrls: [ './app.component.scss' ]
 })
 export class AppComponent {
-  title = 'app';
-  person = 'Carlos Botero';
+	title = 'my application';
+	author = 'Carlos Botero';
+	count = 0;
+	imgSource = './../favicon.ico';
+	inputEnabled: boolean = true;
 }
