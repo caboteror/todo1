@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
 	title = 'my application';
-	author = 'Carlos Botero';
+	author = 'Carlos Botero R';
 	count = 0;
 	imgSource = './assets/favicon.ico';
 	inputEnabled = true;
